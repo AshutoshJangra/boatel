@@ -4,8 +4,8 @@ import "../../App.css";
 
 const RentalCard = ({ rental }) => {
   return (
-    <Link className='no-underline' to={`/rental/${rental.id}`}>
-      <div className="rental-card bg-near-white br3 ma3 mv3 ">
+    <Link className='no-underline' to={`/rentals/${rental._id}`}>
+      <div className="rental-card bg-white br3 ma3 mv3 ">
         <div className="card-img">
           <img className="" src={rental.image} alt="" />
         </div>
