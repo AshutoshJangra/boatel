@@ -7,7 +7,7 @@ class RentalList extends Component {
       <div className="flex flex-wrap">
         {/* traverse through rental array and display cards */}
         {this.props.rentals.map(rental => {
-          return <RentalCard key={rental.id} rental={rental} />;
+          return <RentalCard key={rental._id} rental={rental} />;
         })}
       </div>
     );

@@ -7,7 +7,7 @@ import { Provider } from "react-redux";
 
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 
-const store = require('./reducer/Store').init();
+const store = require("./reducer/Store").init();
 
 class App extends Component {
   render() {
@@ -20,7 +20,7 @@ class App extends Component {
             <div className="container">
               <Route exact path="/" render={() => <Redirect to="/rentals" />} />
               <Route exact path="/rentals" component={RentalListing} />
-              <Route exact path="/rental/:id" component={RentalDetail} />
+              <Route exact path="/rentals/:id" component={RentalDetail} />
             </div>
           </div>
         </Router>

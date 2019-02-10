@@ -5,7 +5,7 @@ import "../App.css";
 const Headers = () => {
   return (
     <div>
-      <nav className="flex justify-between bg-near-white ">
+      <nav className="flex nav-bar justify-between bg-white ">
         <Link to="/rentals" className="logo pt2 pl5 no-underline fw4 orange" id="title">
           Boatel
         </Link>

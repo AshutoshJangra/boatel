@@ -7,6 +7,7 @@ import * as actions from "../../actions";
 class RentalListing extends Component {
   componentWillMount() {
     this.props.dispatch(actions.fetchRentals());
+    
   }
 
   render() {

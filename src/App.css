@@ -1,17 +1,61 @@
+.App{
+    background: #f7f7f8;
+    height: 100vh; 
+}
+
 .input-field {
     width: 30vw;
     padding: 5px;
 }
 
 #title{
-  font-size: 29px;
+  font-size: 2rem;
+}
+
+.nav-bar{
+    border-bottom: #333333d0 solid 0.3px;
 }
 
 .rental-card{
     width: 200px;
+    height: 250px;
 }
 
 .app-title{
     font-size: 1.8rem;
     font-weight: 500;
+}
+
+/*rental detail */
+.rental-detail{
+    width: 98vw;
+    background-color: #f7f7f8;
+}
+/*rental-detail-left section */
+.rental-detail-up{
+    height: 60vh;
+    width: 98vw;
+    background-color: #333333d0;
+    color: white;
+}
+
+.rental-detail-right{
+    height: 91vh;
+    width: 66vw;
+    background-color: #f7f7f8
+}
+
+.rental-img{
+    width: 350px;
+    height: 250px;
+    padding: 10% 5px 0 0;
+}
+
+.rental-map{
+   
+}
+
+.map{
+    width:200px;
+    height: 200px;
 }
