@@ -4,7 +4,7 @@ import * as actions from "../../actions";
 import { connect } from "react-redux";
 import RentalDetailUp from "./RentalDetailUp";
 import { RentalDetailInfoDown } from "./RentalDetailInfoDown";
-import RentalDetailMap from "./RentalDetailMap";
+//import RentalDetailMap from "./RentalDetailMap";
 import "font-awesome/css/font-awesome.min.css";
 
 class RentalDetail extends Component {

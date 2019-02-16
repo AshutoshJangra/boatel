@@ -58,4 +58,25 @@
 .map{
     width:200px;
     height: 200px;
+
+}
+
+/* login page */
+.image-container{
+    position: relative;
+    text-align: center;
+    
+}
+
+.image-container img{
+    height: 90vh;
+    width: 50vw
+}
+
+.centered{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    color:white;
+    transform: translate(-50%, -50%);
 }
