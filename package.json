@@ -9,7 +9,7 @@
     "font-awesome": "^4.7.0",
     "g": "^2.0.1",
     "google-maps-react": "^2.0.2",
-    "jsonwebtoken": "^8.4.0",
+    "jsonwebtoken": "^9.0.0",
     "moment": "^2.24.0",
     "mongoose": "^5.4.9",
     "nodemon": "^1.18.10",
